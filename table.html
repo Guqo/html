@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <title>Tabulka</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link rel="icon" href="img/rick gif.gif" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <h1>Tabulky v HTML <i class="fa fa-table" aria-hidden="true"></i></h1>
+    </header>
+    <div class="topnav">
+        <a href="galerie/gallery.html">Fotogalerie</a>
+        <a class="active" href="table.html">Tabulka</a>
+        <a href="multimedia/multimedia.html">Multimédia</a>
+    </div>
+    <main>
+        <h2>Slavná osobnost: Josef Lada <i class="fa fa-user" aria-hidden="true"></i></h2>
+        <table border="1">
+            <caption>Vizitka slavné osobnosti</caption>
+            <thead>
+                <tr>
+                    <th class="first">Portrét</th>
+                    <th class="first" colspan="2">Základní údaje</th>
+                    <th class="first">Významné činy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="second" rowspan="3"><img class="lada" src="img/josef-lada.png" alt="Josef Lada"></td>
+                    <td class="second" colspan="2">Josef Lada</td>
+                    <td class="second" rowspan="4">Vytvořil asi 400 volných obrazů <br>a okolo 15 tisíc ilustrací. <br><br>Díla:
+                        <br>Moje
+                        abeceda, <br>Říkadla, <br>České Vánoce, <br>Český Honza, <br>Práci, a další.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="second">1887, Hrusice</td>
+                    <td class="second">1957, Praha</td>
+                </tr>
+                <tr>
+                    <td class="second" rowspan="2" colspan="2"> Český malíř, ilustrátor, scénograf a spisovatel.<br>Jako půlroční
+                        chlapec
+                        upadl na knejp a poranil si oko.<br>Viděl jen na jedno a bez prostorového vidění,<br>což
+                        ovlivnilo
+                        jeho výtvarné vyjadřování.</td>
+                </tr>
+                <tr>
+                    <td class="second">Josef Lada</td>
+                </tr>
+                <tr>
+                    <td class="odkaz" colspan="4"><a href="https://cs.wikipedia.org/wiki/Josef_Lada"
+                            target="_blank">Odkaz na Wikipedii</a></td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        <h2>Značky a atributy tabulky</h2>
+        <dl>
+            <dt><strong>colspan</strong></dt>
+            <dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
+            <dt><strong>rowspan</strong></dt>
+            <dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
+            <dt><strong>tr</strong></dt>
+            <dd>Vytvoření řady tabulky</dd>
+            <dt><strong>th</strong></dt>
+            <dd>Nadpis kategorie tabulky</dd>
+            <dt><strong>td</strong></dt>
+            <dd>Data jednotlivých buněk tabulky</dd>
+            <dt><strong>colspan</strong></dt>
+            <dd>Atribut zajišťijící rozpětí přes několik sloupců.</dd>
+            <dt><strong>rowspan</strong></dt>
+            <dd>Atribut zajišťijící rozpětí přes několik řádků.</dd>
+            <dt><strong>table</strong></dt>
+            <dd>Značka, která zajistí ohraničení celé tabulky</dd>
+            <dt><strong>thead</strong></dt>
+            <dd>Záhlaví tabulky</dd>
+            <dt><strong>tbody</strong></dt>
+            <dd>Tělo tabulky</dd>
+            <dt><strong>tfoot</strong></dt>
+            <dd>Pata (spodní část) tabulky</dd>
+        </dl>
+    </main>
+    <footer>
+        <p>&copy; 2021 - IT1 - Tomáš Ryba</p>
+    </footer>
+</body>
+
+</html>

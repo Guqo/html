@@ -1,0 +1,125 @@
+body {
+    background-image: linear-gradient(150deg, #3498db, #8e44ad);
+    min-height: 100vh;
+}
+
+table, th, td {
+    margin-left: 170px;
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.lada {
+    border-radius: 15px;
+}
+
+caption {
+    color: white;
+    text-shadow: 0px 0px 5px rgb(179, 179, 179);
+    background-image: linear-gradient(140deg, #2c3e50, #34495e);
+    border-top: 1px solid #2c3e50;
+    border-left: 1px solid #2c3e50;
+    border-right: 1px solid #2c3e50;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.odkaz {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(179, 179, 179);
+    background-image: linear-gradient(140deg, #2c3e50, #34495e);
+}
+
+.first {
+    background-color: rgb(197, 197, 197);
+}
+
+.second {
+    background-color: rgb(238, 238, 238);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(173, 173, 173);
+    transition: 0.15s;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0px 0px 5px rgb(179, 179, 179);
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 280px;
+    background-image: linear-gradient(140deg, #2c3e50, #34495e);
+    border: 1px solid #2c3e50;
+}
+
+header {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 5px grey;
+    margin-top: 30px;
+}
+
+main {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+dl {
+    text-align: center;
+}
+
+dt {
+    font-size: 20px;
+}
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-shadow: 1px 1px 5px white;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #a4c9ff;
+    text-decoration: underline;
+    color: black;
+    text-shadow: 1px 1px 5px white;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #0066ff;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}

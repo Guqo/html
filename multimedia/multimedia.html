@@ -2,47 +2,57 @@
 <html lang="cs">
 
 <head>
-    <title>Multimédia v HTML</title>
+    <title>Multimédia</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/style.css" rel="stylesheet">
     <link href="multimedia.css" rel="stylesheet">
+    <link rel="icon" href="../img/rick gif.gif" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" />
 </head>
 
 <body>
     <header>
-        <h1>Multimedia v HTML</h1>
+        <h1>Multimédia v HTML <i class="fa fa-mobile" aria-hidden="true"></i></h1>
     </header>
     <div class="topnav">
         <a href="../galerie/gallery.html">Fotogalerie</a>
-        <a href="../table/table.html">Tabulka</a>
+        <a href="../table.html">Tabulka</a>
         <a class="active" href="../multimedia/multimedia.html">Multimédia</a>
     </div>
     <main>
-        <h2>Obrázky v HTML</h2>
+        <h2>Obrázky v HTML <i class="fa fa-picture-o" aria-hidden="true"></i></h2>
         <figure>
-            <img src="../img/josef-lada.png" alt="Josef Lada">
+            <img class="lada" src="../img/josef-lada.png" alt="Josef Lada">
             <figcaption>Český malíř Josef Lada.</figcaption>
         </figure>
-        <h2>Audio a video v HTML</h2>
-        <video width="400" controls>
-            <source src="media/bunny.mp4" type="video/mp4">
-            <source src="media/bunny.ogg" type="video/ogg">
-            Váš prohlížeš bohužel tento formát nepodporuje.
+        <h2>Audio a video v HTML <i class="fa fa-volume-up" aria-hidden="true"></i></h2>
+        <div class="bunny"><video width="400" controls>
+                <source src="../media/bunny.mp4" type="video/mp4">
+                <source src="../media/bunny.ogg" type="video/ogg">
+                Váš prohlížeš bohužel tento formát nepodporuje.
+            </video>
             <figcaption>Králík</figcaption>
-        </video>
-        <audio controls>
-            <source src="media/drake-gods_play.mp3" type="audio/ogg">
-            <source src="media/drake-gods_play.mp3" type="audio/mpeg">
-            Váš prohlížeš bohužel tento formát nepodporuje.
-        </audio>
-        <figcaption>Drake</figcaption>
-        <h2>Video z YouTube</h2>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe>
+
+        </div>
+        <div class="rickroll">
+            <audio controls>
+                <source src="../media/rickroll.mp3" type="audio/ogg">
+                <source src="../media/rickroll.mp3" type="audio/mpeg">
+                Váš prohlížeš bohužel tento formát nepodporuje.
+            </audio>
+            <figcaption>Rickroll</figcaption>
+        </div>
+        <h2>Video z YouTube <i class="fa fa-youtube-play" aria-hidden="true"></i></h2>
+        <div class="queen">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </div>
     </main>
     <footer>
-
+        <p>&copy; 2021 - IT1 - Tomáš Ryba</p>
     </footer>
 </body>
 
